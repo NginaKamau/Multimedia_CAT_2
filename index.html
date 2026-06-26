@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Save Our Wildlife – a conservation initiative protecting
+                 Africa's endangered species and natural habitats." />
+  <title>Save Our Wildlife</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ── Header ── -->
+  <header>
+    <h1>Save Our <span>Wildlife</span></h1>
+    <p class="tagline">Conservation matters &mdash; act before it&rsquo;s too late</p>
+  </header>
+
+  
+
+    
+    <div class="video-wrapper" aria-hidden="false">
+      <video
+        id="wildlifeVideo"
+        controls
+        preload="metadata"
+        aria-label="Wildlife conservation promotional video"
+      >
+        <source src="wildlife.mp4" type="video/mp4" />
+        <p>
+          Your browser does not support HTML5 video.
+          <a href="wildlife.mp4">Download the video</a> instead.
+        </p>
+      </video>
+    </div>
+
+    <div class="content">
+
+      <p class="description">
+        Every year, hundreds of species edge closer to extinction due to habitat
+        loss, poaching, and climate change. Our organisation works on the ground
+        to protect critical ecosystems, rescue injured animals, and educate
+        communities &mdash; because wildlife is not a luxury; it&rsquo;s the
+        foundation of life on Earth. Watch our story and join the mission.
+      </p>
+
+      <button
+        id="toggleBtn"
+        class="btn-toggle"
+        type="button"
+        aria-live="polite"
+      >
+        Play Video
+      </button>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <p>&copy; 2025 Save Our Wildlife Conservation Organisation. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
